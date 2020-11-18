@@ -1,0 +1,101 @@
+body {
+background: url(backlog.jpg);
+background-repeat:no-repeat;
+background-size:100%;
+}
+input {
+    position: relative;
+    left:55%;
+    inline-size: auto;
+    line-height: 28px;
+    margin-top:3px;
+    margin-bottom:10px;
+    border-radius:3px;    
+    text-align:center;
+    background-color: rgba(128, 113, 113, 0.2);
+    outline: none;
+    
+}
+.back img {
+    
+  
+    width: 60px;
+    display: block;
+    position: relative;
+    bottom:108px;
+    left:57px;  
+    background: url(gg.png);
+}
+.content {
+ height:250px;
+ width:470px;
+ border-radius:20px 12px;
+ margin-top:210px;
+    background-color:rgba(52,65,86,0.2) ;
+    
+    
+    position: relative;
+    left:34%;
+    
+    
+}
+.content h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left:259px;
+    padding-top:10px;
+    color:#ffffd3;
+    font-size:26px;
+    
+}
+
+.content button {
+    font-size:14px; 
+    border-radius:3px ;
+   background-color:rgb(215, 218, 205,0.1);
+    margin-left:307px;
+    margin-top:10px;
+    height: 45px;
+   
+  
+}
+.reg {
+    font-size:15px;
+    position: relative;
+    bottom:73px;
+    left:45px;
+    
+}
+.in {
+    width: 103px;
+    font-size:15px;
+    position: relative;
+    right:65px;
+    color:rgb(124, 100, 100);
+
+}
+
+.dop {
+    width:120px;
+    opacity: 0.8;
+    position: relative;
+    bottom:310px;
+    left:50px;  
+}
+
+ a:link {
+    color:rgb(124,100,100);
+text-decoration: none;
+}
+a:visited {
+    color:rgb(124,100,100);
+}
+a:hover {
+    color:rgb(238, 231, 133);
+}
+button:active {
+    color:rgb(238, 231, 133);
+}
+button:hover {
+    color:rgb(238, 231, 133);
+}
+

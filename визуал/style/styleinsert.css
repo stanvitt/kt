@@ -1,0 +1,32 @@
+.content {
+display: flex;
+flex-direction: column;
+align-items: center;
+width:1450px;
+margin-top:150px;
+}
+button {
+    width:120px;
+    margin-left:8px;
+    margin-top:12px;
+    border-radius: 25px;
+    padding:11px;
+    font-size:17px;
+  box-shadow:0 0 0 0.2px orange;
+  box-shadow:0 0 0.5px 0.4px rgb(229, 149, 240);
+  background-color: rgba(255, 249, 249, 0.4);
+}
+a {
+    text-decoration: none;
+    color:#000;
+}
+body{
+    background-image: url(backins.jpg);
+
+}
+input {
+    padding:5px;
+}
+td {
+    font-size:21px;
+}

@@ -1,0 +1,90 @@
+body {
+
+    background-image: url(backtable.jpg);
+}
+
+  table caption {
+    background: rgb(196, 182, 176); 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px  4px 0 rgba(0,0,0,.3);
+    color: white;
+    font-family: "Roboto Slab",serif;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+  }
+  table td, table th {
+    padding: 18px;
+    text-align: center;
+  }
+  table th {
+    text-align: center;
+    font-size: 28px;
+  }
+  table tr:nth-child(1n) {
+    background: rgb(233, 231, 231,0.9);
+  }
+  table td:last-of-type {
+    text-align: center;
+  }
+  table a {
+    font-size:19px;
+    display: inline-block;
+    padding: 5px 10px;
+    background: rgb(192, 186, 183);
+    box-shadow: 2px 2px 0 0 #d3b6ad;
+    position: relative;
+    border-radius: 25px;
+  }
+  table a:hover {
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+  }
+  table a:link {
+      text-decoration: none;
+      color:rgb(0, 0, 0);
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+  }
+
+  button {
+      margin-left:25px;
+    margin-top:12px;
+    border-radius: 25px;
+    padding:15px;
+    font-size:19px;
+  box-shadow:0 0 0 0.2px orange;
+  box-shadow:0 0 0.5px 0.4px rgb(229, 149, 240);
+  background-color: rgba(255, 249, 249, 0.4);
+  }
+
+  a {
+    font-size:20px;
+  }
+  a:visited {
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    text-decoration: none;
+    color:rgb(218, 68, 93);
+}
+a:active {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    color:black;
+}
+.all { 
+    position: relative;
+    margin-left:30%;
+    margin-top: 12%;
+}
+.knopki {
+   margin-left:-55px;
+}

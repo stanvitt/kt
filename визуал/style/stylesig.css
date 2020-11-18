@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Cookie|Raleway:300,700,400);
+*{
+	box-sizing: border-box;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+background-image: url(backsig.jpg);
+	background-size: cover;
+	color: #333;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.container{
+	background-image: url(backsigbody.jpg);
+
+	
+	margin:0 auto;
+	border-radius: 0.5em;
+	box-shadow: 0 0 1em 0 rgba(51,51,51,0.25);
+	display: block;
+	margin-top:116px;
+	width: 480px;
+	overflow: hidden;
+position: relative;
+	
+	padding: 2em;	
+
+	
+}
+
+form button.submit{
+	background: rgba(255,255,255,0.25);
+	border: 1px solid #333;
+	line-height: 1em;
+	padding: 0.5em 0.5em;
+	border-radius: 0.2em;
+	position: relative;
+	left:55%;
+	margin-top:16px;
+	
+}
+
+
+
+
+label{
+	border-bottom: 1px solid #333;
+	display: block;
+	font-size: 23px;
+	margin-bottom: 0.5em;
+	
+}
+ label.col-one-half{
+	float: left;
+	width: 50%;
+}
+ label.col-one-half:nth-of-type(even){
+	border-left: 1px solid #333;
+	padding-left: 0.25em;
+}
+ label input{
+	 font-size:16px;
+	background: none;
+	border: none;
+	line-height: 1px;
+	font-weight: 300;
+	padding: 0.125em 0.25em;
+	width: 100%;
+}
+label input:focus{
+	outline: none;
+}
+
+label span.label-text{
+	display: block;
+	color:black;
+	font-size: 0.5em;
+	font-weight: bold;
+	padding-left: 0.5em;
+	text-transform:unset ;
+	-webkit-transition: all 1s;
+	transition: 0	;
+	
+}
+.zag {
+	
+	margin-left:125px;	
+	margin-bottom:35px;
+	font-size:28px;
+	font-style: italic;
+}
+.back {
+	background: rgba(255,255,255,0.25);
+	border: 1px solid #333;
+	line-height: 1em;
+	padding: 0.5em 0.5em;
+	border-radius: 0.2em;
+	position: relative;
+	top:50%;
+	margin-right: 500px;
+	top:90%;
+	width:150px;
+}
+
+a {
+	text-decoration: none;
+	color:#000;
+}

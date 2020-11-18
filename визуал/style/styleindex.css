@@ -1,0 +1,123 @@
+
+body {
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+  font-size:18px;
+ background-image:url(backind.png) ;
+ 
+font-weight: 500;
+
+  
+}
+
+h1 {
+ font-family:"TT2020 Base";
+ src:url(TT.otf);
+ font-weight:500;
+ font-weight: 600;
+ color:rgb(255, 255, 255);
+
+}
+.container2 {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255,0.2);
+  border-radius: 20px;
+}
+.container1 {
+  width: 50%;
+  margin: 0 auto;
+}
+.container1 a {
+  color:rgb(255, 255, 255);
+  font-size:23px; 
+}
+
+.container2 ul li {
+  display: inline;
+  text-align:center;
+}
+.container2 a {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  padding-left: 55px;
+  margin-left: 25px;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+.container2 hr {
+  height:2px;
+  width: 25%;
+  margin-left: 11%;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
+.container2 .two2:hover ~ hr {
+  margin-left: 51%;
+}
+  
+
+
+ul li {
+  display: inline;
+
+  text-align:center;
+
+}
+
+a {
+  display: inline-block;
+  width: auto;
+  padding:23px;
+  margin:0;
+  text-decoration: none;
+ 
+}
+
+
+.two:hover ~ hr {
+  margin-left: 41%;
+ 
+}
+
+.three:hover ~ hr {
+  margin-left: 66%;
+}
+
+.four:hover ~ hr {
+  margin-left: 66.5%;
+}
+.five:hover ~ hr {
+  margin-left: 74.5%;
+}
+
+
+hr {
+  height:2px;
+  width: 27%;
+  margin-left: 2.5%;
+  background: gray;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+.pr {
+  text-align:center;
+  margin-top:50px;
+}
+
+.pr a:hover {
+text-decoration: underline tomato;
+
+}
+.pr a {
+  color:rgb(241, 241, 241);
+  font-size:22px;
+}
+.pr {
+  font-size:22px;
+}
+.pr p{
+color: rgb(241, 241, 241);
+}
